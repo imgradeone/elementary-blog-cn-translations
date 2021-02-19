@@ -1,0 +1,93 @@
+{% unless page.thanks %}
+<div class="thanks">
+  <hr/>
+
+  <h2>感谢大家</h2>
+  <p>感谢所有支持者、众筹参与者，以及各位用户！有了你们的贡献，elementary 才得以存在。如果你希望构建、优化 elementary OS，那么欢迎你的<a href="https://elementary.io/get-involved" onclick="plausible('Link: Get Involved')">加入</a>。</p>
+
+  <div class="links">
+    <a
+      href="https://elementary.io/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="elementary downloads"
+      onclick="plausible('Link: Homepage')"
+    >
+      {% include svg/elementary.svg %}
+    </a>
+
+    <a
+      href="https://appcenter.elementary.io"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="AppCenter"
+      onclick="plausible('Link: AppCenter')"
+    >
+      {% include svg/appcenter.svg %}
+    </a>
+
+    <a
+      href="https://github.com/sponsors/elementary"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="GitHub"
+      onclick="plausible('Link: GitHub Sponsors')"
+    >
+      {% include svg/github.svg %}
+    </a>
+
+    <a
+      href="https://www.patreon.com/elementary"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Patreon"
+      onclick="plausible('Link: Patreon')"
+    >
+      {% include svg/patreon.svg %}
+    </a>
+
+    <a
+      href="https://www.paypal.me/elementary"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="Paypal"
+      onclick="plausible('Link: Paypal')"
+    >
+      {% include svg/paypal.svg %}
+    </a>
+
+    <a
+      href="https://elementary.io/store/"
+      rel="noreferrer nofollow noopener"
+      target="_blank"
+      title="elementary merch store"
+      onclick="plausible('Link: Store')"
+    >
+      {% include svg/shopping-cart.svg %}
+    </a>
+  </div>
+</div>
+{% endunless %}
+
+{% if page.sponsor.name %}
+  <div class="sponsor">
+    {% if page.sponsor.link && page.sponsor.image %}
+      <a href="{{ page.sponsor.link }}" rel="noreferrer nofollow noopener" target="_blank">
+    {% endif %}
+    {% if page.sponsor.image %}
+      <img
+        src="{{ page.sponsor.image }}"
+        alt="{{ page.sponsor.name }}"
+        {% if page.sponsor.image-2x %}
+          srcset="{{ page.sponsor.image-2x }} 2x"
+        {% endif %}
+      />
+    {% endif %}
+    {% if page.sponsor.link  && page.sponsor.image %}</a>{% endif %}
+
+    <p>同时在此我们也要感谢 
+    {% if page.sponsor.link %}
+      <a href="{{ page.sponsor.link }}" rel="noreferrer nofollow noopener" target="_blank">
+    {% endif %}{{ page.sponsor.name }}{% if page.sponsor.link %}</a>{% endif %} 对这篇文章的赞助。{% if page.sponsor.hook %}{{ page.sponsor.hook }}{% endif %}</p>
+  </div>
+{% endif %}

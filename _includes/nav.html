@@ -1,0 +1,50 @@
+<header>
+  <nav class="primary">
+    <ul>
+      <li><a href="https://elementary.io" class="logomark" target="_self">
+        {% include svg/community-logomark.svg %}
+      </a></li>
+
+      <li><a href="{{ site.baseurl }}/" target="_self">博客</a></li>
+      <li><a href="https://developer.elementary.io" target="_self">前往英文原版</a><</li>
+      <li><a href="https://elementary.io/get-involved" target="_self">elementary 官网</a></li>
+    </ul>
+  </nav>
+  <nav class="secondary">
+    <div>
+      <a href="{{ site.baseurl }}/tags/">所有标签</a>
+      <a href="{{ site.baseurl }}/tags/#updates">系统更新</a>
+      <a href="{{ site.baseurl }}/tags/#appcenter">应用中心</a>
+      <a href="{{ site.baseurl }}/tags/#devs">开发者</a>
+      <a href="{{ site.baseurl }}/tags/#design">设计</a>
+      <a href="{{ site.baseurl }}/tags/#in-progress-translation">未完成翻译</a>
+      <a href="{{ site.baseurl }}/tags/#done-translation">已翻译</a>
+    </div>
+
+    <div id="search-container" class="hidden">
+      {% include svg/edit-find-symbolic.svg %}
+      <input type="text" id="search-input" placeholder="搜索文章…">
+      <ul id="results-container"></ul>
+    </div>
+
+    <script src="/scripts/search.js"></script>
+
+    <script>
+      document.getElementById('search-container').classList.remove("hidden")
+
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        searchResultTemplate: `<li>
+          <a href="{url}">
+            <div class="featured-image" alt="Featured image" style="background-image: url({image});"></div>
+            <span id="title">{title}</span>
+            <span id="description">{description}</span>
+          </a>
+        </li>`,
+        resultsContainer: document.getElementById('results-container'),
+        noResultsText: ("No Result Found"),
+        json: '/search.json'
+      })
+    </script>
+  </nav>
+</header>
