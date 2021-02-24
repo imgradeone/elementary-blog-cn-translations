@@ -55,7 +55,7 @@ Hera 版本将继续收到来自 Canocial 的 Ubuntu LTS 底层库的安全及�
 在几周之前，我们悄然上线了 [builds.elementary.io](https://builds.elementary.io)。这个新网站托管着 elementary OS 的抢先体验版，以确保 OEM、开发者、测试人员、支持者和那些激动的粉丝能第一时间体验到最新的预发布版本。目前 elementary OS 6 已经达到了可安装、可启动的状态，我们也已经开始自动将那些在 AppCenter for Everyone 众筹项目中捐赠 25 美元及更多钱的人，以及所有在 GitHub Sponsors 中捐赠 10 美元/月 或更高档位的赞助者加入到抢先体验版名单中。如果你对新版本感到好奇，或者你现在就想体验抢先体验版，那么去访问下方的网站吧：
 
 <div style="text-align: center">
-  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://builds.elementary.io" class="button">elementary OS 抢先体验版版（英文）</a></p>
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://builds.elementary.io" class="button">抢先体验版（英文）</a></p>
 </div>
 
 抢先体验版是您先人一步获得独家体验权、支持 elementary OS 长期发展，以及反馈早期功能的绝佳方式。仍然澄清一下，拥有定价及分发的正式版 elementary OS 将保持不变，最新的稳定版将仍然可以从 elementary.io 下载，依旧是随意出价。所有源代码完全开放，可以从 [GitHub](https://github.com/elementary) 获取。
