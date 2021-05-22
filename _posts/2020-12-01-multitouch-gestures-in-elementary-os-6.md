@@ -1,12 +1,13 @@
 ---
-title: elementary OS 6 暗黑样式进度
-description: 原力的暗面是通向一些神奇能力的途径……即便它很不自然
+title: elementary OS 6 的多指触控手势
+description: 最顺“滑”的系统
 author: danrabbit
-image: https://blog.elementary.io/images/dark-style-progress-november-2020/card.png
+image: https://blog.elementary.io/images/multitouch-gestures-in-elementary-os-6/multitasking.png
 tags:
   - dark-style
   - odin
   - ux
+  - touch
 hidden: true
 ---
 ## 注意！
