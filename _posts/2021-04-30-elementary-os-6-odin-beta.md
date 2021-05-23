@@ -59,3 +59,12 @@ Release Candidate，顾名思义：稳定版本的候选版本。RC 版本基于
 {% assign post = site.posts | where:"slug", "multitouch-gestures-in-elementary-os-6" | first %}
 {% include featured.html post=post %}
 </aside>
+
+---
+
+## 注意！
+本文目前暂时没有翻译完成，但不必慌张，您可以点击页面顶部的 [阅读英文原文](https://blog.elementary.io{{ page.url }}) 来继续阅读，或者点击下方的按钮：
+
+<div style="text-align: center">
+  <p><a rel="nofollow noopener noreferrer" target="_blank" href="https://blog.elementary.io{{ page.url }}" class="button">阅读英文原文</a></p>
+</div>
