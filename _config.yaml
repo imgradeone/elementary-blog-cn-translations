@@ -1,5 +1,5 @@
 title: "elementary 博客中文翻译"
-description: "We design and develop the fast, open, and privacy-respecting replacement for Windows and macOS"
+description: "为 elementary OS 中文粉丝准备的特殊站点"
 permalink: /:title/
 theme-color: "#cd9ef7"
 gravatar: eaa3cc978770998ea2bd4382935bf0f4
@@ -33,6 +33,10 @@ authors:
     name: Peter Uithoven
     description: "前端开发者"
     gravatar: f39b1485b28be1dc2b98f269235218bc
+  imgradeone:
+    name: imgradeone Yan
+    description: "博客翻译 & 系统翻译参与者"
+    gravatar: 146924576b3eec83130f224495cdbedc
   anonymous:
     name: "Unknown Author"
 

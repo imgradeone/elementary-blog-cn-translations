@@ -1,6 +1,6 @@
 ---
 ---
-# Tags
+# 标签
 
 <section class="tag-list">
 {% assign tags = site.tags | sort %}
