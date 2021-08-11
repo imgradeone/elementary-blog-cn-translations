@@ -99,7 +99,7 @@ elementary OS 6 采用了前沿的沙盒技术，实现技术层面上的隐私�
 
 <figure class="third" markdown="1">
 
-![应用中心截图](https://blog.elementary.io/images/multitouch-gestures-in-elementary-os-6/appcenter.gif")
+![应用中心截图](https://blog.elementary.io/images/multitouch-gestures-in-elementary-os-6/appcenter.gif)
 ![通知中心](https://blog.elementary.io/images/multitouch-gestures-in-elementary-os-6/notification-center.gif)
 ![键盘布局](https://blog.elementary.io/images/multitouch-gestures-in-elementary-os-6/keyboard-layouts.gif)
 <figcaption>
