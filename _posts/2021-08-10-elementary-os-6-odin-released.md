@@ -2,7 +2,7 @@
 title: elementary OS 6 Odin 现已正式发布
 description: 最大的平台更新，如今终于到来
 author: cassidyjames
-image: https://blog.elementary.io/images/updates-for-july-2020/card.png
+image: https://blog.elementary.io/images/elementary-os-6-odin-released/odin.png
 
 tags:
   - flatpak
